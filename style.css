@@ -1,0 +1,722 @@
+/*----------ОБНУЛЯЮЩИЙ СТИЛЬ----------*/
+*{padding: 0;margin: 0;border: 0;
+}
+*,*::before, *::after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;
+}:focus, :active{outline: none;}a:focus,a:active{outline: none;}nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+/*------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+  background: url(../img/Background.svg) 0 0/100% no-repeat;
+  background-color: black;
+  max-width: 1440px;
+  max-height: 2621px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Manrope", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.list {
+  width: 111.5px;
+  height: 42px;
+  background-color: #FF001D;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 45px;
+  padding: 10px;
+  transition: 0.6s;
+}
+
+.list:hover{
+  background-color: #353535;
+  transition: 0.6s;
+}
+
+.tripaloski{
+  padding: 5px 0px 0px 0px
+}
+
+.list a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.textheader{
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+.textheader a{
+  color: white;
+  margin: 0 0 0 56px;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #282828;
+  margin-top: 50px;
+}
+
+
+
+.h1{
+  color: white;
+  font-size: 70px;
+  text-align: left;
+  margin-top: 150px;
+}
+
+.button1{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 16px;
+  color: white;
+  background-color: #FF001D;
+  width: 260px;
+  height: 61px;
+  font-size: 22px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+.button2{
+  margin-left: 15px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 16px;
+  color: white;
+  background: transparent;
+  width: 260px;
+  height: 61px;
+  font-size: 22px;
+  font-weight: 500px;
+  border: 2px solid #323232;
+  transition: 0.6s;
+}
+
+.button1:hover{
+  background-color: #77000e;
+  transition: 0.6s;
+}
+
+.button2:hover{
+  background-color: #1f1e1e;
+  transition: 0.6s;
+}
+
+.arrow{
+  margin:  6px 0px 0px 0px;
+}
+
+.chat{
+  margin:  6px 0px 0px 0px;
+}
+
+
+/* 1 карточка */
+
+.blockuslug1{
+  width: 443px;
+  height: 243px;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 32px;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 2,1px;
+  margin-top: 385px;
+  transition: 0.6s;
+}
+
+.blockuslug1:hover{
+  background-color: #FF001D;
+}
+
+.blockuslug1 p{
+  width: 58px;
+  height: 25px;
+  background-color: #FF001D;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: -160px 0px 0px 280px;
+  transition: 0.6s;
+}
+
+.blockuslug1:hover p{
+  background-color: #141414;
+  transition: 0.6s;
+}
+
+.blockuslug1kartinka{
+  margin: -31px 0px 0px 159px;
+  border-radius: 25px;
+}
+
+.arrow2{
+  margin: -70px 0px 0px 360px;
+}
+
+/* 2 карточка */
+
+.blockuslug2{
+  width: 443px;
+  height: 243px;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 32px;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 2,1px;
+  position: relative;
+  margin: -245px 0px 0px 475px;
+  transition: 0.6s;
+}
+
+.blockuslug2:hover{
+  background-color: #FF001D;
+  transition: 0.6s;
+}
+
+.blockuslug2 p{
+  width: 58px;
+  height: 25px;
+  background-color: #1E1E1E;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: -160px 0px 0px 280px;
+  transition: 0.6s;
+}
+
+.blockuslug2:hover p{
+  background-color: #FF001D;
+  transition: 0.6s;
+}
+
+.blockuslug2kartinka{
+  margin: -33px 0px 0px 155px;
+  border-radius: 14px;
+}
+
+.arrow3{
+  margin: -70px 0px 0px 360px;
+}
+
+
+/* 3 карточка */
+
+.blockuslug3{
+  width: 443px;
+  height: 243px;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 32px;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 2,1px;
+  position: relative;
+  margin: -245px 0px 0px 950px;
+  transition: 0.6s;
+}
+
+.blockuslug3:hover{
+  background-color: #FF001D;
+  transition: 0.6s;
+}
+
+.blockuslug3 p{
+  width: 58px;
+  height: 25px;
+  background-color: #FF001D;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: -160px 0px 0px 280px;
+  transition: 0.6s;
+}
+
+.blockuslug3:hover p{
+  background-color: #141414;
+  transition: 0.6s;
+}
+
+.blockuslug3kartinka{
+  margin: -63px 0px 0px 144px;
+  border-radius: 25px;
+}
+
+.arrow4{
+  margin: -70px 0px 0px 360px;
+}
+
+/* 4 карточка */
+
+.blockuslug4{
+  width: 443px;
+  height: 243px;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 32px;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 2,1px;
+  position: relative;
+  margin: 25px 0px 0px 0px;
+  transition: 0.6s;
+}
+
+.blockuslug4:hover{
+  background-color: #FF001D;
+  transition: 0.6s;
+}
+
+.blockuslug4 p{
+  width: 58px;
+  height: 25px;
+  background-color: #FF001D;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: -160px 0px 0px 280px;
+  transition: 0.6s;
+}
+
+.blockuslug4:hover p{
+  background-color: #141414;
+  transition: 0.6s;
+}
+
+.blockuslug4kartinka{
+  margin: 24px 0px 0px 153px;
+  border-radius: 34px;
+}
+
+.arrow5{
+  margin: -70px 0px 0px 360px;
+}
+
+/* 5 карточка */
+
+.blockuslug5{
+  width: 443px;
+  height: 243px;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 32px;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 2,1px;
+  margin: -245px 0px 0px 475px;
+  transition: 0.6s;
+}
+
+.blockuslug5:hover{
+  background-color: #FF001D;
+}
+
+.blockuslug5 p{
+  width: 58px;
+  height: 25px;
+  background-color: #FF001D;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: -160px 0px 0px 280px;
+  transition: 0.6s;
+}
+
+.blockuslug5:hover p{
+  background-color: #141414;
+  transition: 0.6s;
+}
+
+.blockuslug5kartinka{
+  margin: -14px 0px 0px 162px;
+  border-radius: 30px;
+}
+
+.arrow6{
+  margin: -70px 0px 0px 360px;
+}
+
+/* 6 карточка */
+
+.blockuslug6{
+  width: 443px;
+  height: 243px;
+  background-color: #1E1E1E;
+  color: white;
+  border-radius: 32px;
+  font-size: 28px;
+  padding: 30px;
+  line-height: 2,1px;
+  margin: -245px 0px 0px 950px;
+  transition: 0.6s;
+}
+
+.blockuslug6:hover{
+  background-color: #FF001D;
+  transition: 0.6s;
+}
+
+.blockuslug6 p{
+  width: 58px;
+  height: 25px;
+  background-color: #FF001D;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 5px;
+  margin: -160px 0px 0px 280px;
+  transition: 0.6s;
+}
+
+.blockuslug6:hover p{
+  background-color: #141414;
+  transition: 0.6s;
+}
+
+.blockuslug6kartinka{
+  margin: -14px 0px 0px 161px;
+  border-radius: 36px;
+}
+
+.arrow7{
+  margin: -70px 0px 0px 360px;
+}
+
+
+
+/*ИЗБРАННЫЕ РАБОТЫ*/
+
+
+/*избранная 1*/
+
+.favourites{
+  width: 1390px;
+  height: 765px;
+  background-color: white;
+  border-radius: 32px;
+}
+
+.h2{
+  font-size: 54px;
+  color: #000;
+  font-weight: 500;
+  padding: 70px 0px 0px 50px;
+}
+
+.kartinkafav{
+  margin-bottom: 25px;
+}
+
+.favourites1{
+  width: 310px;
+  height: 312px;
+  font-size: 18px;
+  padding: 0 0 0 50px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+.favourites1 p{
+  font-size: 14px;
+  color: black;
+  transition: 0.6s;
+  margin-top: 20px;
+}
+
+.favourites1 a{
+  color: black;
+}
+
+.strelka1{
+  margin: -2px 0px 0px 90px;
+}
+
+
+/*избранная 2*/
+
+.kartinkafav2{
+  margin-bottom: 25px;
+}
+
+.favourites2{
+  width: 310px;
+  height: 312px;
+  font-size: 18px;
+  padding: 0 0 0 50px;
+  font-weight: 500;
+  position: relative;
+  margin:  -313px 0px 0px 336px
+}
+.favourites2 p{
+  font-size: 14px;
+  color: black;
+  transition: 0.6s;
+  margin-top: 20px;
+}
+
+.strelka2{
+  margin: -2px 0px 0px 90px;
+}
+
+.favourites2 a{
+  color: black;
+}
+
+/*избранная 3*/
+
+.kartinkafav3{
+  margin-bottom: 25px;
+}
+
+.favourites3{
+  width: 310px;
+  height: 312px;
+  font-size: 18px;
+  padding: 0 0 0 50px;
+  font-weight: 500;
+  position: relative;
+  margin:  -313px 0px 0px 672px;
+}
+.favourites3 p{
+  font-size: 14px;
+  color: black;
+  transition: 0.6s;
+  margin-top: 20px;
+}
+
+.strelka3{
+  margin: -2px 0px 0px 90px;
+}
+
+.favourites3 a{
+  color: black;
+}
+
+
+/*избранная 4*/
+
+.kartinkafav4{
+  margin-bottom: 25px;
+}
+
+.favourites4{
+  width: 310px;
+  height: 312px;
+  font-size: 18px;
+  padding: 0 0 0 50px;
+  font-weight: 500;
+  position: relative;
+  margin:  -313px 0px 0px 1008px
+}
+.favourites4 p{
+  font-size: 14px;
+  color: black;
+  transition: 0.6s;
+  margin-top: 20px;
+}
+
+.strelka4{
+  margin: -2px 0px 0px 90px;
+}
+
+.favourites4 a{
+  color: black;
+}
+
+.socials{
+  height: 141px;
+  width: 1200px;
+  background-color: #F5F5F5;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.seti{
+  margin: -50px 0 0 300px;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+}
+
+.socials p{
+  margin: 0 0 0 50px;
+  padding-top: 50px;
+}
+
+
+/*4 блок */
+
+.endblock{
+  width: 1390px;
+  height: 500px;
+  background-color: #FF001D;
+  border-radius: 32px;
+}
+
+.endblock h3{
+  color: white;
+  font-size: 66px;
+  margin: 0px 0px 0px 100px;
+  padding: 50px 0 0 0;
+}
+
+.endblock p{
+  color: white;
+  font-size: 24px;
+  margin: 0px 0px 0px 100px;
+  padding: 50px 0 0 0;
+}
+
+.zapisendblock{
+  margin: 125px 0 0 100px;
+}
+
+.button3{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 16px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  width: 210px;
+  height: 61px;
+  font-size: 18px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+.button4{
+  margin-left: 15px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 16px;
+  color: white;
+  background: transparent;
+  width: 210px;
+  height: 61px;
+  font-size: 18px;
+  font-weight: 500px;
+  border: 2px solid #ffffff;
+  transition: 0.6s;
+}
+
+.button3:hover{
+  background-color: #808080;
+  transition: 0.6s;
+}
+
+.button4:hover{
+  background-color: #77000e;
+  transition: 0.6s;
+}
+
+.oborud{
+  position: relative;
+  margin: -360px 0 0 800px;
+}
+
+.oborud h4{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.oborud h5{
+  color: white;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/*lift*/
+
+.lift{
+  position: relative;
+  margin: -171px 0 0 1100px;
+}
+
+.lift h4{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.lift h5{
+  color: white;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/*ceni*/
+
+.ceni{
+  position: relative;
+  margin: 35px 0 0 800px;
+}
+
+.ceni h4{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.ceni h5{
+  color: white;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/*pokraska*/
+
+.pokraska{
+  position: relative;
+  margin: -171px 0 0 1100px;
+}
+
+.pokraska h4{
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.pokraska h5{
+  color: white;
+  margin-top: 15px;
+  font-size: 16px;
+}
