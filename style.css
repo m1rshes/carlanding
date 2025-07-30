@@ -18,18 +18,21 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 body {
-  background-image: url(img/Background.svg) no-repeat center center fixed;
-  background-size: contain;
-  background-color: black;
-  max-width: 1440px;
-  max-height: 2621px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  font-family: "Manrope", system-ui;
-  font-optical-sizing: auto;
-  font-style: normal;
+    background-image: url('img/Background.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    max-width: 1440px;
+    max-height: 2621px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: "Manrope", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .logo {
