@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 body {
-    background-image: url('../img/Background.png');
+    background-image: url('./img/Background.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
